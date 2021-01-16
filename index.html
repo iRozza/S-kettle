@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--IE compatibilty meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--First Mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/rtl.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/media.css">
+      <!--[if lt IE 9]>
+        //This will include html5 tags in IE9
+      <script src="js/html5shiv.js"></script>
+      //this will include media qurey for IE9
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand ml-5" href="#">S-kettle <span>Inc.</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav  ml-auto mr-5">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">S-kettle <span>Inc.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Company</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Programming</a></li>
+              <li><a class="dropdown-item" href="#">Sales</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Delivery</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- start carousel -->
+  <div id="mySlide" class="carousel slide d-none d-md-block" data-ride="carousel" >
+    <ol class="carousel-indicators">
+      <li data-target="#mySlide" data-slide-to="0" class="active"></li>
+      <li data-target="#mySlide" data-slide-to="1"></li>
+      <li data-target="#mySlide" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img class="d-block w-100 " src="img/slider/programming.jpg" alt="First slide">
+        <div class="carousel-caption ">
+          <h1>Programming</h1>
+          <p>Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task. Programming involves tasks such as: analysis, generating algorithms, profiling algorithms' accuracy and resource consumptionc.</p></div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/slider/img (130).jpg" alt="Second slide">
+        <div class="carousel-caption ">
+          <h5>Picture 2</h5>
+          <p>Hello this is pic 2</p></div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/slider/img_nature_wide.jpg" alt="Third slide">
+        <div class="carousel-caption ">
+          <h5>Picture 3</h5>
+          <p>Hello this is picture 3</p></div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#mySlide" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#mySlide" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!-- end carousel -->
+
+<!-- start about -->
+  <section class="about text-center">
+    <div class="container">
+      <h1>Meet Our New Product <span>S-kettle</span></h1>
+      <p class="lead ">
+        Let me introduce our newest child S-kettle
+        Created by our top skilled team using the newest technology like <strong>AI and IoT</strong>
+      </p>
+    </div>
+  </section>
+  <!-- end about -->
+  
+  <!-- start features section -->
+  <section class="features">
+    <div class="container">
+      <h1 class="text-center">Features</h1>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="feat">
+            <i class="fas fa-dumbbell"></i>
+            <h4>Robust</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit suscipit, consequat elit quis, tincidunt dolor. Mauris sapien turpis, convallis in ante ut, sagittis dictum justo. 
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="feat">
+            <i class="fas fa-brain"></i>
+            <h4>Smart</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit suscipit, consequat elit quis, tincidunt dolor. Mauris sapien turpis, convallis in ante ut, sagittis dictum justo. 
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="feat">
+            <i class="fas fa-check"></i>
+            <h4>Responsive</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit suscipit, consequat elit quis, tincidunt dolor. Mauris sapien turpis, convallis in ante ut, sagittis dictum justo. 
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="feat">
+            <i class="fas fa-book"></i>
+            <h4>Well-docummented</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget elit suscipit, consequat elit quis, tincidunt dolor. Mauris sapien turpis, convallis in ante ut, sagittis dictum justo. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end features section -->
+
+  <!-- start testimonial section -->
+  <section class="testimonial text-center">
+    <div class="container">
+      <h1>What our clients say?</h1>
+      <!-- start testimonial carousel -->
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+ 
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+            <p class="lead">Computer programming is the process of designing and building an executable computer program to accomplish</p>
+            <span>Rozza</span>
+        </div>
+        <div class="carousel-item">
+            <p class="lead">This is the second testimonial</p>
+            <span>7amo2a</span>
+        </div>
+        <div class="carousel-item">
+          <p class="lead">This is the third testimonial</p>
+          <span>7en 7en 7enawy</span>
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#testimonial-carousel" data-slide-to="0" class="active">
+          <img src="img/testimonial1.jpeg" alt="Osama">
+        </li>
+        <li data-target="#testimonial-carousel" data-slide-to="1">
+          <img src="img/testimonial2.jpeg" alt="7amo2a">
+        </li>
+        <li data-target="#testimonial-carousel" data-slide-to="2">
+          <img src="img/testimonial3.png" alt="7eno">
+        </li>
+      </ol>
+  
+  
+    </div>
+  <!-- end carousel -->
+    </div>
+  </section>
+  <!-- end testimoncal section -->
+
+  <!-- start price table -->
+  <section class="price-table text-center">
+    <div class="container">
+      <h1>This is all for..</h1>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="price-box">
+            <h3 class="text-primary">Product #1</h3>
+            <p class="d-block mx-auto">40$</p>
+            <ul class="list-unstyled">
+              <li>Hi</li>
+              <li>New</li>
+              <li>man</li>
+              <li>There</li>
+              <li>look</li>
+              <li>down</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="price-box">
+            <h3 class="text-success">Product #2</h3>
+            <p class="d-block mx-auto">40$</p>
+            <ul class="list-unstyled">
+              <li>Hi</li>
+              <li>New</li>
+              <li>man</li>
+              <li>There</li>
+              <li>look</li>
+              <li>down</li>
+            </ul>
+            <a href="#" class="btn btn-success">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="price-box">
+            <h3 class="text-info">Product #3</h3>
+            <p class="d-block mx-auto">40$</p>
+            <ul class="list-unstyled">
+              <li>Hi</li>
+              <li>New</li>
+              <li>man</li>
+              <li>There</li>
+              <li>look</li>
+              <li>down</li>
+            </ul>
+            <a href="#" class="btn btn-info">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="price-box">
+            <h3 class="text-danger">Product #4</h3>
+            <p class="d-block mx-auto">40$</p>
+            <ul class="list-unstyled">
+              <li>Hi</li>
+              <li>New</li>
+              <li>man</li>
+              <li>There</li>
+              <li>look</li>
+              <li>down</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end price table -->
+
+
+  <!-- start our-team -->
+  <section class="our-team">
+    <div class="team">
+      <div class="container">
+        <h1 class="text-center">Meet Our Awesome Team</h1>
+        <div class="row text-center">
+          <div class="col-lg-3 col-sm-6">
+            <div class="person">
+              <img class=" rounded-circle" src="img/pexels-allan-franca-carmo-5423728.jpg" alt="somebody">
+              <h4>girl 1</h4>
+              <p>this is girl#1 </p>
+              <i class="fab fa-facebook fa-lg"></i>
+              <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-instagram fa-lg"></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="person">
+              <img class=" rounded-circle" src="img/pexels-christina-morillo-1181424.jpg" alt="told">
+              <h4>girl 2</h4>
+              <p>This is girl #2 </p>
+              <i class="fab fa-facebook fa-lg"></i>
+              <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-instagram fa-lg"></i>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="person">
+              <img class=" rounded-circle" src="img/pexels-simon-robben-614810.jpg" alt="told">
+              <h4>Rozza</h4>
+              <p>CTO</p>
+              <i class="fab fa-facebook fa-lg"></i>
+              <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-instagram fa-lg"></i>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="person">
+              <img class=" rounded-circle" src="img/pexels-pixabay-220453.jpg" alt="told">
+              <h4>7amo2a</h4>
+              <p>CEO</p>
+              <i class="fab fa-facebook fa-lg"></i>
+              <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-instagram fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end our-team -->
+
+  <!-- start subscribe section  -->
+  <section class="subscribe text-center">
+    <div class="container">
+      <h1>Keep In Touch</h1>
+      <p class="lead">Sign Up For Our News Letter, Don't Worry About Spam We Hate It Too!</p>
+      <form action="" class="form-inline">
+        <input type="text" name="" id="" class="form-control-lg" placeholder="Your E-mail">
+        <button class="btn btn-danger btn-lg"><i class="far fa-edit"></i> Subscribe</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- end subscribe section  -->
+    <!-- start statistics -->
+<section class="statistics text-center">
+  <div class="data">
+    <div class="container">
+      <h1>Our Main Statistics</h1>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="stats">
+            <i class="fas fa-users fa-5x"></i>
+            <p>9,500</p>
+            <span>Customers</span>
+          </div>
+      </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="stats">
+            <i class="fas fa-mug-hot fa-5x"></i>
+            <p>60,000</p>
+            <span>Kettle</span>
+        </div>
+      </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="stats">
+            <i class="fas fa-store fa-5x"></i>
+            <p>12</p>
+            <span>Stores</span>
+        </div>
+      </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="stats">
+          <i class="fas fa-life-ring fa-5x"></i>
+          <p>100</p>
+          <span>Support Employees</span>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- end statistics -->
+
+  <!-- start our-skills section -->
+  <section class="our-skills">
+    <div class="container">
+      <h1 class="text-center">Our Skills</h1>
+      <div class="row">
+        <!-- start progress skill -->
+        <div class="col-md-5">
+          <div class="skills-progress">
+            <div class="progress">
+              <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  IoT
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 89%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                Cloud
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                AI
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end progress skill -->
+
+        <!-- start Team-info -->
+        <div class="col-md-6 offset-1">
+          <div class="skills-info">
+            <h3>About The Team</h3>
+            <p class="lead">We are Specialed designing and programming team, passionate about making a smarter world and creating digital ideas</p>
+            <button class="btn btn-primary">Talk With A Professional</button>
+          </div>
+        </div>
+        <!-- end Team-info -->
+
+      </div>
+
+    </div>
+  </section>
+  <!-- end our-skills section -->
+
+  <!-- start section contact-us -->
+    <section class="contact-us">
+      <div class="contact text-center">
+        <div class="container">
+          <h1>Tell Us What You Feel</h1>
+          <p class="lead">Feel Free To Contact Us At Any Time</p>
+          <form action="" role="form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" name="" id="" class="form-control-lg" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="" id="" class="form-control-lg" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="" id="" class="form-control-lg" placeholder="Cell Phone">
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control" name="" id="" cols="58" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Send</button>
+              </div>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </section>
+  <!-- end section contact-us -->
+
+  <!-- start footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h3>Sitemap</h3>
+          <ul class="list-unstyled three-cols">
+            <li>Home</li>
+            <li>About</li>
+            <li>Company</li>
+            <li>Code</li>
+            <li>Design</li>
+            <li>Host</li>
+            <li>Solutions</li>
+            <li>Sitemap</li>
+            <li>Contact us</li>
+          </ul>
+          <ul class="list-unstyled social-list">
+            <li><img src="img/social/iconfinder_square-facebook_317727.png" alt="facebook"></li>
+            <li><img src="img/social/iconfinder_square-twitter_317723.png" alt="twitter"></li>
+            <li><img src="img/social/iconfinder_Social-media_LinkedIn_4362961.png" alt="LinkedIn"></li>
+            <li><img src="img/social/iconfinder_62-instagram_4202090.png" alt="instagram"></li>
+            <li><img src="img/social/iconfinder_social_media_social_media_logo_github_2993771.png" alt="github"></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h3>Latest Articles</h3>
+          
+          <div class="media">
+            <img class="mr-3" src="img/articles/01.jpeg" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0"><a href="#">Programming</a></h5>
+              Some text about programming. 
+            </div>
+          </div>
+          
+
+          <div class="media">
+            <img class="mr-3" src="img/articles/02.jpeg" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0"><a href="#">Web Development</a></h5>
+              Some text about Web Development. 
+            </div>
+          </div>
+
+          <div class="media">
+            <img class="mr-3" src="img/articles/03.jpeg" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0"><a href="#">Design</a></h5>
+              Some text about Web Design. 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h3>Our Awesome Work</h3>
+          <img class="img-thumbnail" src="img/work/01.jpeg" alt="img 1">
+          <img class="img-thumbnail"src="img/work/02.jpeg" alt="img 2">
+          <img class="img-thumbnail"src="img/work/03.jpeg" alt="img 3">
+          <img class="img-thumbnail"src="img/work/04.jpeg" alt="img 4">
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      copyright &copy; <span>S-kettle</span> .Inc
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- start Loading screen -->
+  <section class="loading-screen">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+  </section>
+  <!-- end Loading screen -->
+
+  <!-- start scroll to top -->
+  <div id="scroll-top">
+    <i class="fas fa-chevron-circle-up fa-3x"></i>
+  </div>
+  <!-- end scroll to top -->
+  
+  <!--Jquery (necessary for bootstrap's javascript plugins)-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- my plugins -->
+    <script src="js/plugins.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

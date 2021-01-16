@@ -1,0 +1,26 @@
+/* Smartphones and tablets */
+@media (max-width: 767px) {
+    .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-prepend > .input-group-text, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-append > .btn {
+        margin-bottom: 10px;
+    }
+}
+
+/* small screens */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Medium Screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+
+}
