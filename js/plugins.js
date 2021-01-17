@@ -1,4 +1,6 @@
 $("document").ready(function () {
+  $("body").niceScroll()
+
   $(window).on("load", function () {
     $(".loading-screen .spinner").fadeOut(1000, function () {
       $(this)

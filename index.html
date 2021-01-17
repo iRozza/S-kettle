@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--First Mobile meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Skettle - Home Page</title>
     
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/rtl.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
       <!--[if lt IE 9]>
         //This will include html5 tags in IE9
       <script src="js/html5shiv.js"></script>
@@ -25,7 +26,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand ml-5" href="#">S-kettle <span>Inc.</span></a>
+    <a class="navbar-brand ml-5" href="#">Skettle <span>Inc.</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,10 +35,10 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" href="#">Features</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item dropdown">
@@ -55,7 +56,7 @@
   </nav>
 <!--   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">S-kettle <span>Inc.</span></a>
+      <a class="navbar-brand" href="#">Skettle <span>Inc.</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -130,11 +131,11 @@
 <!-- end carousel -->
 
 <!-- start about -->
-  <section class="about text-center">
+  <section class="about text-center wow animate__bounceIn" data-wow-duration="1s">
     <div class="container">
-      <h1>Meet Our New Product <span>S-kettle</span></h1>
+      <h1>Meet Our New Product <span>Skettle</span></h1>
       <p class="lead ">
-        Let me introduce our newest child S-kettle
+        Let me introduce our newest child Skettle
         Created by our top skilled team using the newest technology like <strong>AI and IoT</strong>
       </p>
     </div>
@@ -147,7 +148,7 @@
       <h1 class="text-center">Features</h1>
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="feat">
+          <div class="feat wow animate__backInLeft" data-wow-duration="1.5s" data-wow-offset="50">
             <i class="fas fa-dumbbell"></i>
             <h4>Robust</h4>
             <p>
@@ -156,7 +157,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="feat">
+          <div class="feat wow animate__backInDown" data-wow-duration="1.5s" data-wow-offset="50">
             <i class="fas fa-brain"></i>
             <h4>Smart</h4>
             <p>
@@ -165,7 +166,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="feat">
+          <div class="feat wow animate__backInUp" data-wow-duration="1.5s" data-wow-offset="50">
             <i class="fas fa-check"></i>
             <h4>Responsive</h4>
             <p>
@@ -174,7 +175,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="feat">
+          <div class="feat wow animate__backInRight" data-wow-duration="1.5s" data-wow-offset="50">
             <i class="fas fa-book"></i>
             <h4>Well-docummented</h4>
             <p>
@@ -233,7 +234,7 @@
       <h1>This is all for..</h1>
       <div class="row">
         <div class="col-md-3 col-sm-6">
-          <div class="price-box">
+          <div class="price-box wow animate__fadeInDown" data-wow-duration="1.5s" data-wow-offset="100">
             <h3 class="text-primary">Product #1</h3>
             <p class="d-block mx-auto">40$</p>
             <ul class="list-unstyled">
@@ -249,7 +250,7 @@
         </div>
 
         <div class="col-md-3 col-sm-6">
-          <div class="price-box">
+          <div class="price-box wow animate__fadeInUp" data-wow-duration="1.5s" data-wow-offset="100">
             <h3 class="text-success">Product #2</h3>
             <p class="d-block mx-auto">40$</p>
             <ul class="list-unstyled">
@@ -265,7 +266,7 @@
         </div>
 
         <div class="col-md-3 col-sm-6">
-          <div class="price-box">
+          <div class="price-box wow animate__fadeInDown" data-wow-duration="1.5s" data-wow-offset="100">
             <h3 class="text-info">Product #3</h3>
             <p class="d-block mx-auto">40$</p>
             <ul class="list-unstyled">
@@ -281,7 +282,7 @@
         </div>
 
         <div class="col-md-3 col-sm-6">
-          <div class="price-box">
+          <div class="price-box wow animate__fadeInUp" data-wow-duration="1.5s" data-wow-offset="100">
             <h3 class="text-danger">Product #4</h3>
             <p class="d-block mx-auto">40$</p>
             <ul class="list-unstyled">
@@ -308,7 +309,7 @@
         <h1 class="text-center">Meet Our Awesome Team</h1>
         <div class="row text-center">
           <div class="col-lg-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="1.5s" data-wow-offset="100"> 
               <img class=" rounded-circle" src="img/pexels-allan-franca-carmo-5423728.jpg" alt="somebody">
               <h4>girl 1</h4>
               <p>this is girl#1 </p>
@@ -318,7 +319,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="1.5s" data-wow-offset="100">
               <img class=" rounded-circle" src="img/pexels-christina-morillo-1181424.jpg" alt="told">
               <h4>girl 2</h4>
               <p>This is girl #2 </p>
@@ -328,7 +329,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="1.5s" data-wow-offset="100">
               <img class=" rounded-circle" src="img/pexels-simon-robben-614810.jpg" alt="told">
               <h4>Rozza</h4>
               <p>CTO</p>
@@ -338,7 +339,7 @@
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="1.5s" data-wow-offset="100">
               <img class=" rounded-circle" src="img/pexels-pixabay-220453.jpg" alt="told">
               <h4>7amo2a</h4>
               <p>CEO</p>
@@ -550,18 +551,18 @@
     </div>
 
     <div class="copyright text-center">
-      copyright &copy; <span>S-kettle</span> .Inc
+      copyright &copy; <span>Skettle</span> .Inc
     </div>
   </footer>
   <!-- end footer -->
 
   <!-- start Loading screen -->
-  <section class="loading-screen">
+<!--   <section class="loading-screen">
     <div class="spinner">
       <div class="double-bounce1"></div>
       <div class="double-bounce2"></div>
     </div>
-  </section>
+  </section> -->
   <!-- end Loading screen -->
 
   <!-- start scroll to top -->
@@ -576,5 +577,10 @@
     <script src="js/plugins.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
+    <script src="js/jquery.nicescroll.min.js"></script>
 </body>
 </html>

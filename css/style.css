@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -534,6 +534,7 @@ h1, h2, h3, h4, h5, h6, .lead{font-family: 'Roboto', sans-serif;}
     bottom: 20px;
     z-index: 999;
     display: none;
+    cursor: pointer;
 }
 
 #scroll-top:hover {
